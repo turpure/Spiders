@@ -80,7 +80,6 @@ class Spider(object):
                 start += 10
 
     def del_board(self):
-        print(self.ids, self.uins)
         url = 'https://h5.qzone.qq.com/proxy/domain/m.qzone.qq.com/cgi-bin/new/del_msgb?' + '&g_tk=' + str(self.g_tk)
         data = {
             'hostUin': self.__username,
